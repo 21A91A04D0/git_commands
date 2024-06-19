@@ -50,3 +50,9 @@ int main() {
 
     
 };
+
+/*
+    a constructor is a special member function that is automatically called when an object of a class is created.
+    Its primary purpose is to initialize the object's data members and set up the object for use. 
+    Constructors do not have return types, not even void.
+*/

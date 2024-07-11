@@ -37,7 +37,6 @@ class StaticClass {
 int StaticClass::staticVariable = 10;
 
 
-
 int main() {
     int var = 20;
     cout << ::var << "\n"; // this will get the global value

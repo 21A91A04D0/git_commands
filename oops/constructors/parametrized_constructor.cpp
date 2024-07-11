@@ -22,9 +22,10 @@ class ParaC {
 
 
 int main() {
-    ParaC obj(10, 20);
-    cout << obj.get_var1() << " ";
-    cout << obj.get_var2() << "\n";
+    ParaC first;
+    // ParaC obj(10, 20);
+    // cout << obj.get_var1() << " ";
+    // cout << obj.get_var2() << "\n";
 }
 
 /*

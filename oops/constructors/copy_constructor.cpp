@@ -15,9 +15,8 @@ class Myclass {
             cout << "Parametrized constructor is called \n";
         }
         // copy Constructor
-
-        Myclass(Myclass &obj) {
-            data = obj.data;
+        Myclass(Myclass &object) {
+            data = object.data;
             cout << "Copy constructor is called \n";
         }
 
@@ -30,9 +29,11 @@ int main() {
     // Create an object using the default constructor
     Myclass obj1;
     cout << "Data in obj1: " << obj1.getData() << "\n";
+    
     // Create another object using the parameterized constructor
-    Myclass obj2(30);
+    Myclass obj2(20);
     cout << "Data in obj2: " << obj2.getData() << "\n";
+
     // Create a third object using the copy constructor
     Myclass obj3(obj2);// Calls the copy constructor
     cout << "Data in obj3: " << obj3.getData() << "\n";
